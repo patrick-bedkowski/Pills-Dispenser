@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-div{
-	text-align: center;
-}
-table {
-  width: 100%;
-  border: 0px;
-  text-align: center;
-  padding: 8px;
-  margin-left:auto;
-  margin-right:auto;
-}
-table td {
-  text-align:center;
-}
-
-
-
-</style>
-</head>
-
-<body>
-
 # Pills Dispenser
 This projects shows a 3D model of a pills dispenser.
 
@@ -47,7 +21,14 @@ The following software can deduce the least expensive path from the imported pla
 # Project preview
 
 <p style="text-align:center">
-<table style="text-align:center">
+<table style="
+width: 100%;
+border: 0px;
+text-align: center;
+padding: 8px;
+margin-left:auto;
+margin-right:auto;
+">
     <tr>
       <td>
           <img  width="100%"  src="renders/render_1.png">
@@ -89,6 +70,3 @@ __Just cut it in half, and you have two springs that are ready to be mounted wit
 
 ## How to join button with a body?
 After mounting the springs with a glue try to gently push the button inside a slot of a body part.
-
-</body>
-</html>
