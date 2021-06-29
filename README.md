@@ -7,17 +7,18 @@ div{
 }
 table {
   width: 100%;
-}
-
-td, th {
   border: 0px;
   text-align: center;
   padding: 8px;
+  margin-left:auto;
+  margin-right:auto;
+}
+table td {
+  text-align:center;
 }
 
-tr:nth-child(even) {
-  padding-left: 0px;
-}
+
+
 </style>
 </head>
 
@@ -28,9 +29,9 @@ This projects shows a 3D model of a pills dispenser.
 
 The following software can deduce the least expensive path from the imported plane using the Dijkstra's algorithm and python.
 
-#### Table of Contents
+## Table of Contents
 1.  [Project contains](#project-contains)
-2.  [Images](#images)
+2.  [Project preview](#project-preview)
 3.  [Assembly](#assembly)
 	1. [How to acquire springs?](#how-to-acquire-springs)
 	2. [How to join button with a body?](#how-to-join-button-with-a-body)
@@ -43,31 +44,34 @@ The following software can deduce the least expensive path from the imported pla
 	* button
 	* slider_top
 
-# Images
+# Project preview
 
 <p style="text-align:center">
-<table>
+<table style="text-align:center">
     <tr>
-      <th>
+      <td>
           <img  width="100%"  src="renders/render_1.png">
-      </th>
-      <th>
+      </td>
+      <td>
           <img  width="100%"  src="renders/render_2.png">
-      </th>
+      </td>
     </tr>
     <tr>
-      <th>
+      <td>
           <img  width="100%"  src="renders/render_3.png">
-      </th>
-      <th>
+      </td>
+      <td>
           <img  width="100%"  src="renders/render_4.png">
-      </th>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+          <img  width="50%"  src="renders/render_5.png"><br  />
+          <img  height="50%"  src="renders/preview_v1.gif">
+      </td>
     </tr>
   </table>
-  <center>
-    <img  width="50%"  src="renders/render_5.png"><br  />
-    <img  height="50%"  src="renders/preview_v1.gif">
-  </center>
+
 </p>
 
 # Assembly
